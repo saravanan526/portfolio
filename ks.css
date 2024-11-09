@@ -187,6 +187,7 @@ form input, form textarea:focus{
     outline: none;
 }
 
+
 #contact h2{
     text-align: center;
     padding: 30px 0px;
@@ -220,6 +221,42 @@ footer i:hover{
     transform: scale(0.95);
     transition: 0.5s ease;
 }
+#cert h2{
+    text-align: center;
+    padding: 30px 0px;
+    color: royalblue;
+}
+#cert .cert-img .cert-box{
+     width: 280px;
+     padding: 10px 12px;
+     border: 1px solid #cce7d0;
+     border-radius: 15px;
+     cursor: pointer;
+     margin: 15px ;
+}
+#cert .cert-img .cert-box:hover{
+    transform: scale(0.95);
+    transition: 0.5s ease;
+}
+#cert .cert-img{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* display: block; */
+    flex-wrap: wrap;
+}
+#cert .cert-img img{
+    padding: 10px;
+    border-radius: 20px;   
+    background: white; 
+}
+#cert .cert-img p{
+    color: #fff;
+    padding: 8px;
+    text-align:center;
+    font-size: 16px;
+}
+
 @media (max-width:477px){
     #navbar li{
         padding: 0 12px;
